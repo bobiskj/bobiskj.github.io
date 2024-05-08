@@ -2,27 +2,254 @@
 <head>
 <style type="text/css">
 div{
-padding: 1px;
-border: 1px solid black;
+padding: 2px;
+
+
+
+
+
 }
+h5{
+color:grey;
+}
+hr {
+            border: 0;
+            height: 1px;
+            background: grey;
+            margin: 20px 0;
+        }
+
+.baza{
+display: flex;
+align-items:center;
+justify-content:space-between;
+
+}
+.baz1{
+display: flex;
+justify-content:space-between;
+}
+.baz2{
+display: flex;
+flex-direction:column;
+justify-content:space-between;
+}
+.baz3{
+display: flex;
+justify-content:flex-start;
+
+}
+.baz4{
+display: flex;
+flex-direction:column;
+
+}
+.baz5{
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+.baz6{
+display: flex;
+align-items:center;
+}
+.btn {
+      border: none;
+      border-radius: 8px;
+      padding: 5px 12px;
+      text-align: center;
+      font-size: 16px;
+      color: black;
+      background-color: #dcdcdc;
+    }
+    .bt1 {
+      border: none;
+      border-radius: 8px;
+      padding: 5px 12px;
+      text-align: center;
+      font-size: 16px;
+      color: black;
+      background-color: white;
+    }
+    .btn:active, .btn.active {
+          color: white;
+      background-color: #000000;
+    }
+.search-input {
+    border-radius: 10px 0 0 10px; 
+            padding: 10px; /* Внутренний отступ */
+            width: 400px; /* Ширина поля ввода */
+            border: 1px solid #ccc; /* Граница */
+            outline: none; /* Убирает контур при фокусе */
+        }
 </style>
-<div style="width: 1900px; height: 900px;">
-<div style="width: 1900px; height: 100px; margin: 0px;  padding-top: 10px;">
-<div style=" width: 300px; height: 55px;  float:right; margin-top: 10px;">
-<div style=" margin-top:15px; margin-left: 10px; width:55px; height:20px; float:left;">Почта</div>
-<div style=" margin-top:15px; margin-left: 20px; width:65px; height:20px; float:left;">Картинки</div>
-<div style=" margin-top:15px; margin-left: 30px; width:55px; height:20px;  float:left;">Войти</div>
+
+<div style="width:1900px; height:918px;">
+
+<div class="baza" style="width:1890px; height:50px;">
+<div class="baz1" style="width:140px; height:40px;">
+<div style="width:40px; height:30px;"><img src="im.png" style="width:40px; height:40px;"></div>
+<div style="width:90px; height:25px;"><img src="src.png" style="width:140px; height:43px;"></div>
+</div>
+<div class="baz3" style="width:530px; height:40px;">
+<div class="baz6" style="width:465px; height:40px;"><input type="text" class="search-input" placeholder="Введите запрос">
+<button class="bt1" style="width:60px; height:36px;  background-color:#F8F8F8;  border: 1px solid grey;     border-radius:  0 10px 10px 0; "><img src="[.png" style="width:30px; height:26px;"></button>
+
+</div>
+<div style="width:40px; height:40px;"><button class="bt1" style="width:36px; height:36px;  background-color:#F8F8F8;  border: 1px solid grey;     border-radius:20px; margin-top:3px;"><img src="micro.png" style="width:13px; height:16px;"></button></div>
+</div>
+<div class="baz1" style="width:120px; height:40px;">
+<div style="width:40px; height:30px;"><img src="].png" style="width:36px; height:32px;"></div>
+<div style="width:70px; height:30px;"><img src="am.png" style="width:80px; height:40px;"></div>
 </div>
 </div>
-<div style="margin-top: 200px; margin-left: 700px;  width: 600px; height: 400px;">
-<div style="margin-left: 150px; width:300px; height:100px; ">
-<p style="margin-left: 110px;">Логотип</p></div>
-<div style="margin-top: 50px; width:300px; height:100px;  margin-left:150px;">
-<p style="margin-left: 100px;">Поскивая строка</p></div>
-<div style="margin-top: 45px; width:300px; height:100px;  margin-left:150px;">
-<p style="margin-left: 100px;">ИнформациЯ</p></div>
+
+
+
+<div class="baz3" style="width:1890px; height:850px;">
+<div style="width:140px; height:845px;">
+<div class="baz2" style="width:130px; height:95px;  margin-top:10px;">
+
+<div class="baza"style="width:120px; height:20px; background-color:#F2F2F2; border-radius: 10px;"> 
+<img src="a.png" style="width:36px; height:23px;">
+<h4 style="margin-right:15px;">Главная</h4>
 </div>
-<div style="width: 1900px; height: 50px; margin-top: 125px;  padding-top: 10px;">Россия</div>
+
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="b.png" style="width:30px; height:33px;">
+<p style="margin-right:33px;">Shorts</p>
+</div>
+
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="c.png" style="width:30px; height:33px;">
+<p style="margin-right:8px;">Подписки</p>
+</div>
+</div>
+    <hr>
+
+<div class="baz2" style="width:130px; height:70px; margin-top:20px;">
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="d.png" style="width:30px; height:33px;">
+<p style="margin-right:55px;">Вы</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="i.png" style="width:30px; height:33px;">
+<p style="margin-right:20px;">История</p>
+</div>
+</div>
+    <hr>
+<div class="baz2" style="width:130px; height:180px; margin-top:15px;">Вы сможете ставить отметки "Нравится", писать комментарии и подписываться на каналы.
+<img src="am.png" style="width:90px; height:40px;">
+</div>
+    <hr>
+<h4 style="margin-right:15px;">Новигатор</h4>
+<div class="baz2" style="width:130px; height:275px;  margin-top:20px;">
+
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="f.png" style="width:30px; height:33px;">
+<p style="margin-right:15px;">В тренде</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="g.png" style="width:30px; height:33px;">
+<p style="margin-right:23px;">Музыка</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="l.png" style="width:30px; height:33px;">
+<p style="margin-right:19px;">Фильмы</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="p.png" style="width:30px; height:33px;">
+<p style="">Трансляции</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="y.png" style="width:30px; height:33px;">
+<p style="">Видеоигры</p>
+</div>
+<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
+<img src="s.png" style="width:30px; height:33px;">
+<p style="margin-right:33px;">Спорт</p>
+</div>
+</div>
+<div class="baz2" style="width:130px; height:50px; margin-top:20px;"></div>
+</div>
+
+
+
+
+<div class="baz4"style="width:1800px; height:800px;">
+<div  class="baza" style="width:370px; height:30px; margin-top:5px; margin-left:20px;">
+<div style="width:50px; height:10px;"><button class="btn active">Все</button></div>
+<div style="width:50px; height:10px;"><button class="btn">Игры</button></div>
+<div style="width:50px; height:10px;"><button class="btn">Музыка</button></div>
+<div style="width:50px; height:10px; margin-left:15px;"><button class="btn">Эфир</button></div>
+<div style="width:50px; height:10px;"><button class="btn">Анимация</button></div>
+</div>
+<div class="baz5" style="width:1700px; height:750px; margin-left:20px; margin-top:30px;">
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="12.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">ЭТО - КОСМОС UNLEASHED</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="13.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Самый большой в мире бассейн</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="14.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Это я через 5 лет</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="15.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Basics in Behavior</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="16.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Huge Time Save</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px; margin-bottom:90px;">
+<div style="width:310px; height:140px;"><img src="17.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">ПРОНИК В УНИВЕР</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="18.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Unity</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="19.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">DIAN</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="20.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">SpongeBoB</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+<div class="baz4" style="width:300px; height:250px;">
+<div style="width:310px; height:140px;"><img src="21.png" style="width:310px; height:170px;"></div>
+<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Nine Circles</div>
+<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
+<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+</div>
+</div>
+
+</div>
+</div>
 </div>
 </body>
 </html>
+
