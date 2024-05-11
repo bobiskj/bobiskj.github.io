@@ -1,94 +1,7 @@
 <html>
 <head>
-<style type="text/css">
-    
-div{
-padding: 2px;
-}
-
-h5{
-color:grey;
-}
-
-hr {
-            border: 0;
-            height: 1px;
-            background: grey;
-            margin: 20px 0;
-}
-
-.baza{
-display: flex;
-align-items:center;
-justify-content:space-between;
-}
-
-.baz1{
-display: flex;
-justify-content:space-between;
-}
-
-.baz2{
-display: flex;
-flex-direction:column;
-justify-content:space-between;
-}
-
-.baz3{
-display: flex;
-justify-content:flex-start;
-}
-
-.baz4{
-display: flex;
-flex-direction:column;
-}
-
-.baz5{
-display: flex;
-flex-wrap:wrap;
-justify-content:space-between;
-}
-
-.baz6{
-display: flex;
-align-items:center;
-}
-
-.btn {
-      border: none;
-      border-radius: 8px;
-      padding: 5px 12px;
-      text-align: center;
-      font-size: 16px;
-      color: black;
-      background-color: #dcdcdc;
-    }
-    
-    .bt1 {
-      border: none;
-      border-radius: 8px;
-      padding: 5px 12px;
-      text-align: center;
-      font-size: 16px;
-      color: black;
-      background-color: white;
-    }
-    
-    .btn:active, .btn.active {
-          color: white;
-      background-color: #000000;
-    }
-    
-#search-input {
-    border-radius: 10px 0 0 10px; 
-            padding: 10px; /* Внутренний отступ */
-            width: 400px; /* Ширина поля ввода */
-            border: 1px solid #ccc; /* Граница */
-            outline: none; /* Убирает контур при фокусе */
-        }
-        
-</style>
+<link rel="stylesheet" href="class.css">
+<link rel="stylesheet" href="style.css">
 
 <div style="width:1900px; height:918px;">
 
@@ -121,13 +34,13 @@ align-items:center;
 <h4 style="margin-right:15px;">Главная</h4>
 </div>
 
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="b.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="b.png" class="icon">
 <p style="margin-right:33px;">Shorts</p>
 </div>
 
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="c.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="c.png" class="icon">
 <p style="margin-right:8px;">Подписки</p>
 </div>
 </div>
@@ -135,11 +48,11 @@ align-items:center;
 
 <div class="baz2" style="width:130px; height:70px; margin-top:20px;">
 <div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="d.png" style="width:30px; height:33px;">
+<img src="d.png" class="icon">
 <p style="margin-right:55px;">Вы</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="i.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="i.png" class="icon">
 <p style="margin-right:20px;">История</p>
 </div>
 </div>
@@ -152,28 +65,28 @@ align-items:center;
 <h4 style="margin-right:15px;">Новигатор</h4>
 <div class="baz2" style="width:130px; height:275px;  margin-top:20px;">
 
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="f.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="f.png" class="icon">
 <p style="margin-right:15px;">В тренде</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="g.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="g.png" class="icon">
 <p style="margin-right:23px;">Музыка</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="l.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="l.png" class="icon">
 <p style="margin-right:19px;">Фильмы</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="p.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="p.png" class="icon">
 <p style="">Трансляции</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="y.png" style="width:30px; height:33px;">
-<p style="">Видеоигры</p>
+<div class="baza kategorii"> 
+<img src="y.png" class="icon">
+<p>Видеоигры</p>
 </div>
-<div class="baza"style="width:120px; height:20px; border-radius: 10px;"> 
-<img src="s.png" style="width:30px; height:33px;">
+<div class="baza kategorii"> 
+<img src="s.png" class="icon">
 <p style="margin-right:33px;">Спорт</p>
 </div>
 </div>
@@ -185,73 +98,73 @@ align-items:center;
 
 <div class="baz4"style="width:1800px; height:800px;">
 <div  class="baza" style="width:370px; height:30px; margin-top:5px; margin-left:20px;">
-<div style="width:50px; height:10px;"><button class="btn active">Все</button></div>
-<div style="width:50px; height:10px;"><button class="btn">Игры</button></div>
-<div style="width:50px; height:10px;"><button class="btn">Музыка</button></div>
-<div style="width:50px; height:10px; margin-left:15px;"><button class="btn">Эфир</button></div>
-<div style="width:50px; height:10px;"><button class="btn">Анимация</button></div>
+<div class="botton"><button class="btn active">Все</button></div>
+<div class="botton"><button class="btn">Игры</button></div>
+<div class="botton"><button class="btn">Музыка</button></div>
+<div class="botton" style="margin-left:15px;"><button class="btn">Эфир</button></div>
+<div class="botton"><button class="btn">Анимация</button></div>
 </div>
-<div class="baz5" style="width:1700px; height:750px; margin-left:20px; margin-top:30px;">
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="12.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">ЭТО - КОСМОС UNLEASHED</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
-</div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="13.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Самый большой в мире бассейн</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
-</div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="14.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Это я через 5 лет</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
-</div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="15.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Basics in Behavior</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
-</div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="16.png" style="width:310px; height:170px;"></div>
 
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Huge Time Save</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="baz5" style="width:1700px; height:750px; margin-left:20px; margin-top:30px;">
+<div class="video">
+<div class="divvideo""><img src="12.png" class="iconvideo"></div>
+<div class="namevideo">ЭТО - КОСМОС UNLEASHED</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
-<div class="baz4" style="width:300px; height:250px; margin-bottom:90px;">
-<div style="width:310px; height:140px;"><img src="17.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">ПРОНИК В УНИВЕР</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="video">
+<div class="divvideo"><img src="13.png" class="iconvideo"></div>
+<div class="namevideo">Самый большой в мире бассейн</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="18.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Unity</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="video">
+<div class="divvideo"><img src="14.png" class="iconvideo"></div>
+<div class="namevideo">Это я через 5 лет</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="19.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">DIAN</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="video">
+<div class="divvideo"><img src="15.png" class="iconvideo"></div>
+<div class="namevideo">Basics in Behavior</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="20.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">SpongeBoB</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="video">
+<div class="divvideo"><img src="16.png" class="iconvideo"></div>
+<div class="namevideo">Huge Time Save</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
-<div class="baz4" style="width:300px; height:250px;">
-<div style="width:310px; height:140px;"><img src="21.png" style="width:310px; height:170px;"></div>
-<div style="width:290px; height:10px; margin-top:30px; margin-bottom:5px;">Nine Circles</div>
-<h4 style=" margin-top: 1%; margin-bottom:2px; color:grey;">Ne2Da?</h4>
-<h4 style=" margin-top:1px; color:grey;">867 тыс. просмотров</h4>
+<div class="video" style="margin-bottom:90px;">
+<div class="divvideo"><img src="17.png" class="iconvideo"></div>
+<div class="namevideo">ПРОНИК В УНИВЕР</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
+</div>
+<div class="video">
+<div class="divvideo"><img src="18.png" class="iconvideo"></div>
+<div class="namevideo">Unity</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
+</div>
+<div class="video">
+<div class="divvideo"><img src="19.png" class="iconvideo"></div>
+<div class="namevideo">DIAN</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
+</div>
+<div class="video">
+<div class="divvideo"><img src="20.png" class="iconvideo"></div>
+<div class="namevideo">SpongeBoB</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
+</div>
+<div class="video">
+<div class="divvideo"><img src="21.png" class="iconvideo"></div>
+<div class="namevideo">Nine Circles</div>
+<h4 class="kanal">Ne2Da?</h4>
+<h4 class="viewers">867 тыс. просмотров</h4>
 </div>
 </div>
 

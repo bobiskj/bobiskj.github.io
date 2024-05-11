@@ -1,0 +1,122 @@
+.viewers{
+margin-top:1px; 
+color:grey;
+}
+
+.kanal{
+margin-top: 1%; 
+margin-bottom:2px; 
+color:grey;
+}
+
+.namevideo{
+width:290px; 
+height:10px; 
+margin-top:30px; 
+margin-bottom:5px;
+}
+
+.iconvideo{
+width:310px; 
+height:170px;
+}
+
+.divvideo{
+width:310px; 
+height:140px;
+}
+
+.video{
+width:300px;
+height:250px;
+display: flex;
+flex-direction:column;
+}
+
+.botton{
+width:50px; 
+height:10px;
+}
+
+.icon{
+width:30px; 
+height:33px;
+}
+
+.kategorii{
+width:120px; 
+height:20px; 
+border-radius: 10px;
+}
+
+.baza{
+display: flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.baz1{
+display: flex;
+justify-content:space-between;
+}
+
+.baz2{
+display: flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+.baz3{
+display: flex;
+justify-content:flex-start;
+}
+
+.baz4{
+display: flex;
+flex-direction:column;
+}
+
+.baz5{
+display: flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+.baz6{
+display: flex;
+align-items:center;
+}
+
+.btn {
+      border: none;
+      border-radius: 8px;
+      padding: 5px 12px;
+      text-align: center;
+      font-size: 16px;
+      color: black;
+      background-color: #dcdcdc;
+    }
+    
+    .bt1 {
+      border: none;
+      border-radius: 8px;
+      padding: 5px 12px;
+      text-align: center;
+      font-size: 16px;
+      color: black;
+      background-color: white;
+    }
+    
+    .btn:active, .btn.active {
+          color: white;
+      background-color: #000000;
+    }
+    
+#search-input {
+    border-radius: 10px 0 0 10px; 
+            padding: 10px; /* Внутренний отступ */
+            width: 400px; /* Ширина поля ввода */
+            border: 1px solid #ccc; /* Граница */
+            outline: none; /* Убирает контур при фокусе */
+        }
+        

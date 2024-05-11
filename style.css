@@ -1,0 +1,15 @@
+div{
+padding: 2px;
+}
+
+h5{
+color:grey;
+}
+
+hr {
+border: 0;
+height: 1px;
+background: grey;
+margin: 20px 0;
+}
+
