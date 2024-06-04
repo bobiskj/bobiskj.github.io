@@ -111,12 +111,9 @@ align-items:center;
           color: white;
       background-color: #000000;
     }
-    
-#search-input {
-    border-radius: 10px 0 0 10px; 
-            padding: 10px; /* Внутренний отступ */
-            width: 400px; /* Ширина поля ввода */
-            border: 1px solid #ccc; /* Граница */
-            outline: none; /* Убирает контур при фокусе */
-        }
+ 
+.logo{
+width:40px; 
+height:30px;
+}
         
