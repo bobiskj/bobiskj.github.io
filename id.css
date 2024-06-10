@@ -1,11 +1,10 @@
 #search-input {
-    border-radius: 10px 0 0 10px; 
-            padding: 10px; /* Внутренний отступ */
-            width: 400px; /* Ширина поля ввода */
-            border: 1px solid #ccc; /* Граница */
-            outline: none; /* Убирает контур при фокусе */
+    border-radius: 10px 0px 0px 10px; 
+            padding: 10px;
+            width: 400px;
+            border: 1px solid #ccc;
+            outline: none; 
         }
-        
         
 #divvideo {
 display: flex;
@@ -16,7 +15,6 @@ height:750px;
 margin-left:20px; 
 margin-top:30px;
         }
-        
         
 #button{
 width:370px; 
@@ -84,6 +82,13 @@ width:1890px;
 height:50px;
 }
 
+#div1{
+display: flex;
+justify-content:space-between;
+width:140px; 
+height:40px;
+}
+
 #searchengine{
 display: flex;
 align-items:center;
@@ -91,3 +96,74 @@ width:465px;
 height:40px;
 }
 
+#navigator{
+display: flex;
+flex-direction:column;
+justify-content:space-between;
+width:130px; 
+height:275px;  
+margin-top:20px;
+}
+
+#you{
+display: flex;
+align-items:center;
+justify-content:space-between;
+width:120px; 
+height:20px; 
+border-radius: 10px;
+}
+
+#you1{
+display: flex;
+flex-direction:column;
+justify-content:space-between;
+width:130px; 
+height:70px; 
+margin-top:20px;
+}
+
+#sections{
+display: flex;
+flex-direction:column;
+justify-content:space-between;
+width:130px; 
+height:95px;  
+margin-top:10px;
+}
+
+#sections1{
+display: flex;
+justify-content:flex-start;
+width:1890px; 
+height:850px;
+}
+
+#ser{
+display: flex;
+justify-content:flex-start;
+width:530px; 
+height:40px;
+}
+
+#uppersections{
+display: flex;
+flex-direction:column;
+width:1800px; 
+height:800px;
+}
+
+#entry{
+display: flex;
+justify-content:space-between;
+width:120px; 
+height:40px;
+}
+
+#logo{width:90px; height:25px;}
+#photlog{width:140px; height:43px;}
+#searchning{width:30px; height:26px;}
+#microp{width:13px; height:16px;}
+#entrance0{width:70px; height:30px;}
+#moredetails{width:36px; height:32px;}
+#homphoto{width:36px; height:23px;}
